@@ -1,15 +1,15 @@
-***Starting server on port 49891 ***
-Loading net-file from 'src/data/sumo_optimal/optimal.net.xml' ... done (20ms).
-Loading additional-files from 'src/data/sumo_optimal/e2.add.xml' ... done (741ms).
+***Starting server on port 53803 ***
+Loading net-file from 'src/data/sumo_optimal/optimal.net.xml' ... done (14ms).
+Loading additional-files from 'src/data/sumo_optimal/e2.add.xml' ... done (400ms).
 Loading done.
 Simulation version 1.12.0 started with time: 0.00
 Simulation ended at time: 3840.00
 Reason: TraCI requested termination.
 Performance: 
- Duration: 104.10s
- TraCI-Duration: 91.31s
- Real time factor: 36.8865
- UPS: 1679.442475
+ Duration: 83.47s
+ TraCI-Duration: 73.07s
+ Real time factor: 46.0073
+ UPS: 2094.710358
 Vehicles: 
  Inserted: 1540
  Running: 0

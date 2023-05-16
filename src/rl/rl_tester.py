@@ -1,3 +1,4 @@
+import os
 import gym
 import numpy as np
 from matplotlib import pyplot as plt
@@ -153,20 +154,24 @@ class RL_Tester(object):
 
     def plot_action_time_hist(self, act_ts, lens):
         act_ts_np = np.array([x for act_t in act_ts for x in act_t], dtype=np.float64)
-        np.save(f"{self.params['env_params']['test_log_folder']}/action_time_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.npy", act_ts_np, allow_pickle=True)
+        logdir = f"{self.params['env_params']['test_log_folder']}/act_time_test"
+        if not(os.path.exists(logdir)):
+            os.makedirs(logdir)
+
+        np.save(f"{logdir}/action_time_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.npy", act_ts_np, allow_pickle=True)
         # load saved act_ts_np
-        # act_ts_np = np.load(f"{self.params['env_params']['test_log_folder']}/action_time.npy", allow_pickle=True)
+        # act_ts_np = np.load(f"{logdir}/action_time_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.npy", allow_pickle=True)
         act_ts_ms = 1000*act_ts_np
         act_ts_ms_filt = act_ts_ms[~self.is_outlier(act_ts_ms, 20)]
         plt.hist(act_ts_ms_filt, bins = int(len(act_ts_ms_filt)/10), range = [act_ts_ms_filt.min(), act_ts_ms_filt.max()]) 
         plt.title("Action time histogram (ms)")
         image_format = 'svg' # e.g .png, .svg, etc.
-        image_name = f"{self.params['env_params']['test_log_folder']}/act_time_hist_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.svg"
+        image_name = f"{logdir}/act_time_hist_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.svg"
         plt.savefig(image_name, format=image_format, dpi=1200)
         # plt.show()
 
         print("######################## Agent PARAMETERS ##########################")
-        with open(f"{self.params['env_params']['test_log_folder']}/model_params_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.txt", 'w') as f:
+        with open(f"{logdir}/model_params_nl{self.params['agent_params']['n_layers']}_hs{self.params['agent_params']['size']}_gnl{self.params['agent_params']['gnn_n_layers']}_ghs{self.params['agent_params']['gnn_size']}.txt", 'w') as f:
             print(f"Total de parámetros = {sum(p.numel() for p in self.agent.ac.pi.parameters())}")
             f.write(f"Total de parámetros = {sum(p.numel() for p in self.agent.ac.pi.parameters())}")
 

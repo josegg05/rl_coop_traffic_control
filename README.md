@@ -19,6 +19,11 @@ conda activate rl_coop_tc
 sh src/scripts/run_rl_tests.sh
 ```
 
+## Create tests ".csv". Especially useful when you have more than one model tested on each test log folder.
+```bash
+python test_log_files/create_tables_m_samples.py
+```
+
 ## NOTES:
 - Windows: change "forkserver" to "spawn" in "src/environment/vec_env.py > line 62".
 
