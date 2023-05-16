@@ -59,7 +59,7 @@ def make_vec_env(env_params, num_cpu, seed=0):
     num_cpu = num_cpu if num_cpu > 0 else 1 
     return SubprocVecEnv(
         [make_env(env_params, i, seed) for i in range(num_cpu)],
-        start_method='spawn'  # 'spawn' for windows, 'forkserver' for linux
+        start_method='forkserver'  # 'spawn' for windows, 'forkserver' for linux
     )
 
 if __name__ == "__main__": 
