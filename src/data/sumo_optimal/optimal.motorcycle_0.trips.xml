@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-05-16 15:02:04 by Eclipse SUMO duarouter Version 1.12.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="src/data/sumo_optimal/optimal.net.xml"/>
+        <route-files value="src/data/sumo_optimal/optimal.motorcycle_0.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="src/data/sumo_optimal/optimal.motorcycle_0.trips.xml.tmp"/>
+        <write-trips value="true"/>
+    </output>
+
+    <processing>
+        <remove-loops value="true"/>
+    </processing>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="moto_motorcycle" vClass="motorcycle"/>
+    <trip id="moto0" type="moto_motorcycle" depart="0.00" departLane="best" departSpeed="max" from="C4C3" to="D1E1"/>
+    <trip id="moto1" type="moto_motorcycle" depart="14.29" departLane="best" from="D2D3" to="D3D4"/>
+    <trip id="moto2" type="moto_motorcycle" depart="28.57" departLane="best" from="D2C2" to="D3D4"/>
+    <trip id="moto3" type="moto_motorcycle" depart="42.86" departLane="best" departSpeed="max" from="A1B1" to="C2B2"/>
+    <trip id="moto4" type="moto_motorcycle" depart="57.14" departLane="best" departSpeed="max" from="E2D2" to="D1C1"/>
+    <trip id="moto5" type="moto_motorcycle" depart="71.43" departLane="best" departSpeed="max" from="E1D1" to="C1C2"/>
+    <trip id="moto6" type="moto_motorcycle" depart="85.71" departLane="best" from="C2B2" to="B3A3"/>
+    <trip id="moto7" type="moto_motorcycle" depart="100.00" departLane="best" from="D3C3" to="C3C2"/>
+    <trip id="moto8" type="moto_motorcycle" depart="114.29" departLane="best" departSpeed="max" from="A1B1" to="B2C2"/>
+    <trip id="moto9" type="moto_motorcycle" depart="128.57" departLane="best" from="B3B2" to="D3D2"/>
+    <trip id="moto10" type="moto_motorcycle" depart="142.86" departLane="best" from="D2D1" to="B2A2"/>
+    <trip id="moto11" type="moto_motorcycle" depart="157.14" departLane="best" from="D3C3" to="B2A2"/>
+    <trip id="moto12" type="moto_motorcycle" depart="171.43" departLane="best" departSpeed="max" from="C4C3" to="B2A2"/>
+    <trip id="moto13" type="moto_motorcycle" depart="185.71" departLane="best" departSpeed="max" from="A1B1" to="D2E2"/>
+    <trip id="moto14" type="moto_motorcycle" depart="200.00" departLane="best" from="B3B2" to="B2C2"/>
+    <trip id="moto15" type="moto_motorcycle" depart="214.29" departLane="best" departSpeed="max" from="E3D3" to="D2E2"/>
+    <trip id="moto16" type="moto_motorcycle" depart="228.57" departLane="best" from="B3B2" to="D3E3"/>
+    <trip id="moto17" type="moto_motorcycle" depart="242.86" departLane="best" from="C2D2" to="D1D0"/>
+    <trip id="moto18" type="moto_motorcycle" depart="257.14" departLane="best" from="B1C1" to="D3D4"/>
+    <trip id="moto19" type="moto_motorcycle" depart="271.43" departLane="best" from="D1C1" to="D3E3"/>
+    <trip id="moto20" type="moto_motorcycle" depart="285.71" departLane="best" departSpeed="max" from="E1D1" to="B3B4"/>
+    <trip id="moto21" type="moto_motorcycle" depart="300.00" departLane="best" departSpeed="max" from="C0C1" to="B2A2"/>
+    <trip id="moto22" type="moto_motorcycle" depart="314.29" departLane="best" departSpeed="max" from="B0B1" to="B1B0"/>
+    <trip id="moto23" type="moto_motorcycle" depart="328.57" departLane="best" from="B3C3" to="C3C4"/>
+    <trip id="moto24" type="moto_motorcycle" depart="342.86" departLane="best" departSpeed="max" from="A1B1" to="D1D0"/>
+    <trip id="moto25" type="moto_motorcycle" depart="357.14" departLane="best" departSpeed="max" from="B4B3" to="B3B4"/>
+    <trip id="moto26" type="moto_motorcycle" depart="371.43" departLane="best" from="D3D2" to="C2C1"/>
+    <trip id="moto27" type="moto_motorcycle" depart="385.71" departLane="best" departSpeed="max" from="B4B3" to="C2C1"/>
+    <trip id="moto28" type="moto_motorcycle" depart="400.00" departLane="best" from="D1C1" to="B1B0"/>
+    <trip id="moto29" type="moto_motorcycle" depart="414.29" departLane="best" departSpeed="max" from="E3D3" to="B1A1"/>
+    <trip id="moto30" type="moto_motorcycle" depart="428.57" departLane="best" from="D3D2" to="D2E2"/>
+    <trip id="moto31" type="moto_motorcycle" depart="442.86" departLane="best" departSpeed="max" from="A1B1" to="D2C2"/>
+    <trip id="moto32" type="moto_motorcycle" depart="457.14" departLane="best" departSpeed="max" from="C0C1" to="C3C2"/>
+    <trip id="moto33" type="moto_motorcycle" depart="471.43" departLane="best" departSpeed="max" from="A1B1" to="B1B0"/>
+    <trip id="moto34" type="moto_motorcycle" depart="485.71" departLane="best" from="B1B2" to="D3D4"/>
+    <trip id="moto35" type="moto_motorcycle" depart="500.00" departLane="best" from="B1C1" to="D1E1"/>
+    <trip id="moto36" type="moto_motorcycle" depart="514.29" departLane="best" departSpeed="max" from="E2D2" to="D3D4"/>
+    <trip id="moto37" type="moto_motorcycle" depart="528.57" departLane="best" departSpeed="max" from="B4B3" to="C1B1"/>
+    <trip id="moto38" type="moto_motorcycle" depart="542.86" departLane="best" from="C1C2" to="C2C3"/>
+    <trip id="moto39" type="moto_motorcycle" depart="557.14" departLane="best" departSpeed="max" from="A3B3" to="D1E1"/>
+    <trip id="moto40" type="moto_motorcycle" depart="571.43" departLane="best" from="D3C3" to="D2E2"/>
+    <trip id="moto41" type="moto_motorcycle" depart="585.71" departLane="best" departSpeed="max" from="A1B1" to="D3D4"/>
+    <trip id="moto42" type="moto_motorcycle" depart="600.00" departLane="best" departSpeed="max" from="A3B3" to="B3C3"/>
+    <trip id="moto43" type="moto_motorcycle" depart="614.29" departLane="best" departSpeed="max" from="C4C3" to="D3D4"/>
+    <trip id="moto44" type="moto_motorcycle" depart="628.57" departLane="best" departSpeed="max" from="B4B3" to="D3D4"/>
+    <trip id="moto45" type="moto_motorcycle" depart="642.86" departLane="best" from="C3B3" to="B3B4"/>
+    <trip id="moto46" type="moto_motorcycle" depart="657.14" departLane="best" departSpeed="max" from="B4B3" to="B2B1"/>
+    <trip id="moto47" type="moto_motorcycle" depart="671.43" departLane="best" departSpeed="max" from="A2B2" to="B2A2"/>
+    <trip id="moto48" type="moto_motorcycle" depart="685.71" departLane="best" from="D1C1" to="D3E3"/>
+    <trip id="moto49" type="moto_motorcycle" depart="700.00" departLane="best" departSpeed="max" from="B0B1" to="B1B0"/>
+    <trip id="moto50" type="moto_motorcycle" depart="714.29" departLane="best" departSpeed="max" from="E3D3" to="C2D2"/>
+    <trip id="moto51" type="moto_motorcycle" depart="728.57" departLane="best" from="C1B1" to="B3A3"/>
+    <trip id="moto52" type="moto_motorcycle" depart="742.86" departLane="best" from="C3D3" to="D3D2"/>
+    <trip id="moto53" type="moto_motorcycle" depart="757.14" departLane="best" from="B1C1" to="C1C2"/>
+    <trip id="moto54" type="moto_motorcycle" depart="771.43" departLane="best" departSpeed="max" from="A2B2" to="D3D2"/>
+    <trip id="moto55" type="moto_motorcycle" depart="785.71" departLane="best" departSpeed="max" from="A1B1" to="C2C1"/>
+    <trip id="moto56" type="moto_motorcycle" depart="800.00" departLane="best" departSpeed="max" from="D4D3" to="B2A2"/>
+    <trip id="moto57" type="moto_motorcycle" depart="814.29" departLane="best" from="D2C2" to="D3D4"/>
+    <trip id="moto58" type="moto_motorcycle" depart="828.57" departLane="best" departSpeed="max" from="C4C3" to="D2C2"/>
+    <trip id="moto59" type="moto_motorcycle" depart="842.86" departLane="best" departSpeed="max" from="A3B3" to="C1C2"/>
+    <trip id="moto60" type="moto_motorcycle" depart="857.14" departLane="best" departSpeed="max" from="B0B1" to="D2E2"/>
+    <trip id="moto61" type="moto_motorcycle" depart="871.43" departLane="best" from="B3C3" to="C1D1"/>
+    <trip id="moto62" type="moto_motorcycle" depart="885.71" departLane="best" departSpeed="max" from="E3D3" to="D2E2"/>
+    <trip id="moto63" type="moto_motorcycle" depart="900.00" departLane="best" departSpeed="max" from="E3D3" to="C1D1"/>
+    <trip id="moto64" type="moto_motorcycle" depart="914.29" departLane="best" from="C2C1" to="D1E1"/>
+    <trip id="moto65" type="moto_motorcycle" depart="928.57" departLane="best" from="C1C2" to="B3B2"/>
+    <trip id="moto66" type="moto_motorcycle" depart="942.86" departLane="best" from="C1B1" to="B2A2"/>
+    <trip id="moto67" type="moto_motorcycle" depart="957.14" departLane="best" departSpeed="max" from="C0C1" to="D3E3"/>
+    <trip id="moto68" type="moto_motorcycle" depart="971.43" departLane="best" departSpeed="max" from="E3D3" to="D3D2"/>
+    <trip id="moto69" type="moto_motorcycle" depart="985.71" departLane="best" from="C2C1" to="B3C3"/>
+    <trip id="moto70" type="moto_motorcycle" depart="1000.00" departLane="best" departSpeed="max" from="A3B3" to="B3B2"/>
+    <trip id="moto71" type="moto_motorcycle" depart="1014.29" departLane="best" from="C2D2" to="D2E2"/>
+    <trip id="moto72" type="moto_motorcycle" depart="1028.57" departLane="best" departSpeed="max" from="C0C1" to="D2C2"/>
+    <trip id="moto73" type="moto_motorcycle" depart="1042.86" departLane="best" from="C2D2" to="D1D0"/>
+    <trip id="moto74" type="moto_motorcycle" depart="1057.14" departLane="best" departSpeed="max" from="D0D1" to="D1E1"/>
+    <trip id="moto75" type="moto_motorcycle" depart="1071.43" departLane="best" departSpeed="max" from="C0C1" to="D1D0"/>
+    <trip id="moto76" type="moto_motorcycle" depart="1085.71" departLane="best" from="B3B2" to="C2C1"/>
+    <trip id="moto77" type="moto_motorcycle" depart="1100.00" departLane="best" from="D2D1" to="D1D0"/>
+    <trip id="moto78" type="moto_motorcycle" depart="1114.29" departLane="best" from="B3C3" to="D3D4"/>
+    <trip id="moto79" type="moto_motorcycle" depart="1128.57" departLane="best" departSpeed="max" from="D0D1" to="C3C2"/>
+    <trip id="moto80" type="moto_motorcycle" depart="1142.86" departLane="best" departSpeed="max" from="A1B1" to="C3B3"/>
+    <trip id="moto81" type="moto_motorcycle" depart="1157.14" departLane="best" from="B2C2" to="D1D0"/>
+    <trip id="moto82" type="moto_motorcycle" depart="1171.43" departLane="best" from="C3C2" to="D2D3"/>
+    <trip id="moto83" type="moto_motorcycle" depart="1185.71" departLane="best" departSpeed="max" from="D0D1" to="D1C1"/>
+    <trip id="moto84" type="moto_motorcycle" depart="1200.00" departLane="best" departSpeed="max" from="B4B3" to="C3D3"/>
+    <trip id="moto85" type="moto_motorcycle" depart="1214.29" departLane="best" from="D1D2" to="D2D3"/>
+    <trip id="moto86" type="moto_motorcycle" depart="1228.57" departLane="best" departSpeed="max" from="B4B3" to="D2E2"/>
+    <trip id="moto87" type="moto_motorcycle" depart="1242.86" departLane="best" departSpeed="max" from="D4D3" to="D1D0"/>
+    <trip id="moto88" type="moto_motorcycle" depart="1257.14" departLane="best" departSpeed="max" from="E3D3" to="D3D4"/>
+    <trip id="moto89" type="moto_motorcycle" depart="1271.43" departLane="best" from="B2C2" to="C2D2"/>
+    <trip id="moto90" type="moto_motorcycle" depart="1285.71" departLane="best" departSpeed="max" from="B0B1" to="D2E2"/>
+    <trip id="moto91" type="moto_motorcycle" depart="1300.00" departLane="best" departSpeed="max" from="E2D2" to="C2B2"/>
+    <trip id="moto92" type="moto_motorcycle" depart="1314.29" departLane="best" from="C1D1" to="D1D2"/>
+    <trip id="moto93" type="moto_motorcycle" depart="1328.57" departLane="best" from="D2C2" to="B2B1"/>
+    <trip id="moto94" type="moto_motorcycle" depart="1342.86" departLane="best" from="D2D3" to="C3C2"/>
+    <trip id="moto95" type="moto_motorcycle" depart="1357.14" departLane="best" departSpeed="max" from="D0D1" to="C1C2"/>
+    <trip id="moto96" type="moto_motorcycle" depart="1371.43" departLane="best" departSpeed="max" from="C4C3" to="D2C2"/>
+    <trip id="moto97" type="moto_motorcycle" depart="1385.71" departLane="best" departSpeed="max" from="C4C3" to="D1D2"/>
+    <trip id="moto98" type="moto_motorcycle" depart="1400.00" departLane="best" departSpeed="max" from="A1B1" to="B2A2"/>
+    <trip id="moto99" type="moto_motorcycle" depart="1414.29" departLane="best" from="C1D1" to="D1C1"/>
+    <trip id="moto100" type="moto_motorcycle" depart="1428.57" departLane="best" from="B2B1" to="D1D0"/>
+    <trip id="moto101" type="moto_motorcycle" depart="1442.86" departLane="best" departSpeed="max" from="C4C3" to="B1B0"/>
+    <trip id="moto102" type="moto_motorcycle" depart="1457.14" departLane="best" from="C3C2" to="C2C1"/>
+    <trip id="moto103" type="moto_motorcycle" depart="1471.43" departLane="best" departSpeed="max" from="A2B2" to="B2A2"/>
+    <trip id="moto104" type="moto_motorcycle" depart="1485.71" departLane="best" departSpeed="max" from="B4B3" to="B2B1"/>
+    <trip id="moto105" type="moto_motorcycle" depart="1500.00" departLane="best" from="B2B1" to="B1A1"/>
+    <trip id="moto106" type="moto_motorcycle" depart="1514.29" departLane="best" from="C2B2" to="C1C0"/>
+    <trip id="moto107" type="moto_motorcycle" depart="1528.57" departLane="best" departSpeed="max" from="C4C3" to="C3C4"/>
+    <trip id="moto108" type="moto_motorcycle" depart="1542.86" departLane="best" from="B2B3" to="D3D2"/>
+    <trip id="moto109" type="moto_motorcycle" depart="1557.14" departLane="best" departSpeed="max" from="A1B1" to="C1C0"/>
+    <trip id="moto110" type="moto_motorcycle" depart="1571.43" departLane="best" from="B3B2" to="C1C0"/>
+    <trip id="moto111" type="moto_motorcycle" depart="1585.71" departLane="best" departSpeed="max" from="A3B3" to="D2D3"/>
+    <trip id="moto112" type="moto_motorcycle" depart="1600.00" departLane="best" departSpeed="max" from="C0C1" to="B1A1"/>
+    <trip id="moto113" type="moto_motorcycle" depart="1614.29" departLane="best" departSpeed="max" from="C4C3" to="B1B2"/>
+    <trip id="moto114" type="moto_motorcycle" depart="1628.57" departLane="best" from="C3B3" to="B3C3"/>
+    <trip id="moto115" type="moto_motorcycle" depart="1642.86" departLane="best" from="C3C2" to="D3D4"/>
+    <trip id="moto116" type="moto_motorcycle" depart="1657.14" departLane="best" from="D3D2" to="C1C2"/>
+    <trip id="moto117" type="moto_motorcycle" depart="1671.43" departLane="best" from="D3D2" to="C3D3"/>
+    <trip id="moto118" type="moto_motorcycle" depart="1685.71" departLane="best" departSpeed="max" from="C0C1" to="B2A2"/>
+    <trip id="moto119" type="moto_motorcycle" depart="1700.00" departLane="best" from="B3C3" to="C3C2"/>
+    <trip id="moto120" type="moto_motorcycle" depart="1714.29" departLane="best" departSpeed="max" from="E2D2" to="D3E3"/>
+    <trip id="moto121" type="moto_motorcycle" depart="1728.57" departLane="best" departSpeed="max" from="C4C3" to="C3C2"/>
+    <trip id="moto122" type="moto_motorcycle" depart="1742.86" departLane="best" departSpeed="max" from="E1D1" to="B1A1"/>
+    <trip id="moto123" type="moto_motorcycle" depart="1757.14" departLane="best" departSpeed="max" from="A3B3" to="C3C2"/>
+    <trip id="moto124" type="moto_motorcycle" depart="1771.43" departLane="best" departSpeed="max" from="C4C3" to="B2A2"/>
+    <trip id="moto125" type="moto_motorcycle" depart="1785.71" departLane="best" departSpeed="max" from="C4C3" to="C3C2"/>
+    <trip id="moto126" type="moto_motorcycle" depart="1800.00" departLane="best" departSpeed="max" from="C0C1" to="C1C2"/>
+    <trip id="moto127" type="moto_motorcycle" depart="1814.29" departLane="best" from="B2B1" to="B3B2"/>
+    <trip id="moto128" type="moto_motorcycle" depart="1828.57" departLane="best" departSpeed="max" from="E3D3" to="C1C0"/>
+    <trip id="moto129" type="moto_motorcycle" depart="1842.86" departLane="best" departSpeed="max" from="E3D3" to="D3D2"/>
+    <trip id="moto130" type="moto_motorcycle" depart="1857.14" departLane="best" from="C3D3" to="B3A3"/>
+    <trip id="moto131" type="moto_motorcycle" depart="1871.43" departLane="best" departSpeed="max" from="E3D3" to="C2C1"/>
+    <trip id="moto132" type="moto_motorcycle" depart="1885.71" departLane="best" from="C1B1" to="B3B4"/>
+    <trip id="moto133" type="moto_motorcycle" depart="1900.00" departLane="best" departSpeed="max" from="E3D3" to="C2C1"/>
+    <trip id="moto134" type="moto_motorcycle" depart="1914.29" departLane="best" from="B3B2" to="B2B1"/>
+    <trip id="moto135" type="moto_motorcycle" depart="1928.57" departLane="best" departSpeed="max" from="A3B3" to="C3C4"/>
+    <trip id="moto136" type="moto_motorcycle" depart="1942.86" departLane="best" from="C1D1" to="B3B4"/>
+    <trip id="moto137" type="moto_motorcycle" depart="1957.14" departLane="best" from="D2D3" to="D2D3"/>
+    <trip id="moto138" type="moto_motorcycle" depart="1971.43" departLane="best" departSpeed="max" from="A1B1" to="C2D2"/>
+    <trip id="moto139" type="moto_motorcycle" depart="1985.71" departLane="best" from="B3B2" to="D3D4"/>
+    <trip id="moto140" type="moto_motorcycle" depart="2000.00" departLane="best" from="D2D3" to="B3A3"/>
+    <trip id="moto141" type="moto_motorcycle" depart="2014.29" departLane="best" from="B1B2" to="B2A2"/>
+    <trip id="moto142" type="moto_motorcycle" depart="2028.57" departLane="best" departSpeed="max" from="E3D3" to="B3B4"/>
+    <trip id="moto143" type="moto_motorcycle" depart="2042.86" departLane="best" departSpeed="max" from="C4C3" to="C2B2"/>
+    <trip id="moto144" type="moto_motorcycle" depart="2057.14" departLane="best" departSpeed="max" from="C4C3" to="C3C4"/>
+    <trip id="moto145" type="moto_motorcycle" depart="2071.43" departLane="best" from="D2C2" to="B1C1"/>
+    <trip id="moto146" type="moto_motorcycle" depart="2085.71" departLane="best" from="D2D1" to="B3B4"/>
+    <trip id="moto147" type="moto_motorcycle" depart="2100.00" departLane="best" from="C2D2" to="B3C3"/>
+    <trip id="moto148" type="moto_motorcycle" depart="2114.29" departLane="best" from="B3C3" to="C2D2"/>
+    <trip id="moto149" type="moto_motorcycle" depart="2128.57" departLane="best" from="C3C2" to="C1B1"/>
+    <trip id="moto150" type="moto_motorcycle" depart="2142.86" departLane="best" from="D2C2" to="C3C4"/>
+    <trip id="moto151" type="moto_motorcycle" depart="2157.14" departLane="best" departSpeed="max" from="A1B1" to="B3A3"/>
+    <trip id="moto152" type="moto_motorcycle" depart="2171.43" departLane="best" from="C1D1" to="D2C2"/>
+    <trip id="moto153" type="moto_motorcycle" depart="2185.71" departLane="best" departSpeed="max" from="E1D1" to="C3B3"/>
+    <trip id="moto154" type="moto_motorcycle" depart="2200.00" departLane="best" departSpeed="max" from="A1B1" to="D2C2"/>
+    <trip id="moto155" type="moto_motorcycle" depart="2214.29" departLane="best" from="C1C2" to="C2B2"/>
+    <trip id="moto156" type="moto_motorcycle" depart="2228.57" departLane="best" from="D1C1" to="C3D3"/>
+    <trip id="moto157" type="moto_motorcycle" depart="2242.86" departLane="best" from="C2C1" to="D3D2"/>
+    <trip id="moto158" type="moto_motorcycle" depart="2257.14" departLane="best" departSpeed="max" from="C0C1" to="C1C0"/>
+    <trip id="moto159" type="moto_motorcycle" depart="2271.43" departLane="best" departSpeed="max" from="D4D3" to="B2B3"/>
+    <trip id="moto160" type="moto_motorcycle" depart="2285.71" departLane="best" from="B3C3" to="D2D3"/>
+    <trip id="moto161" type="moto_motorcycle" depart="2300.00" departLane="best" departSpeed="max" from="A2B2" to="D2E2"/>
+    <trip id="moto162" type="moto_motorcycle" depart="2314.29" departLane="best" from="D1C1" to="C1C2"/>
+    <trip id="moto163" type="moto_motorcycle" depart="2328.57" departLane="best" from="B3B2" to="C2C3"/>
+    <trip id="moto164" type="moto_motorcycle" depart="2342.86" departLane="best" departSpeed="max" from="E1D1" to="B2A2"/>
+    <trip id="moto165" type="moto_motorcycle" depart="2357.14" departLane="best" from="C1C2" to="C3B3"/>
+    <trip id="moto166" type="moto_motorcycle" depart="2371.43" departLane="best" from="C2C1" to="B3B4"/>
+    <trip id="moto167" type="moto_motorcycle" depart="2385.71" departLane="best" departSpeed="max" from="B0B1" to="C3C4"/>
+    <trip id="moto168" type="moto_motorcycle" depart="2400.00" departLane="best" from="D3C3" to="B1B0"/>
+    <trip id="moto169" type="moto_motorcycle" depart="2414.29" departLane="best" from="B2B3" to="D2D3"/>
+    <trip id="moto170" type="moto_motorcycle" depart="2428.57" departLane="best" from="D3C3" to="D1C1"/>
+    <trip id="moto171" type="moto_motorcycle" depart="2442.86" departLane="best" departSpeed="max" from="A1B1" to="D1D2"/>
+    <trip id="moto172" type="moto_motorcycle" depart="2457.14" departLane="best" departSpeed="max" from="E3D3" to="D3E3"/>
+    <trip id="moto173" type="moto_motorcycle" depart="2471.43" departLane="best" from="D1C1" to="B1B0"/>
+    <trip id="moto174" type="moto_motorcycle" depart="2485.71" departLane="best" departSpeed="max" from="D4D3" to="B2C2"/>
+    <trip id="moto175" type="moto_motorcycle" depart="2500.00" departLane="best" departSpeed="max" from="C4C3" to="D3D4"/>
+    <trip id="moto176" type="moto_motorcycle" depart="2514.29" departLane="best" from="D1D2" to="B2A2"/>
+    <trip id="moto177" type="moto_motorcycle" depart="2528.57" departLane="best" from="B3C3" to="D3D4"/>
+    <trip id="moto178" type="moto_motorcycle" depart="2542.86" departLane="best" departSpeed="max" from="B0B1" to="C3C4"/>
+    <trip id="moto179" type="moto_motorcycle" depart="2557.14" departLane="best" from="C1B1" to="B2A2"/>
+    <trip id="moto180" type="moto_motorcycle" depart="2571.43" departLane="best" departSpeed="max" from="C4C3" to="B1B0"/>
+    <trip id="moto181" type="moto_motorcycle" depart="2585.71" departLane="best" departSpeed="max" from="A3B3" to="C1C0"/>
+    <trip id="moto182" type="moto_motorcycle" depart="2600.00" departLane="best" departSpeed="max" from="A2B2" to="B1B0"/>
+    <trip id="moto183" type="moto_motorcycle" depart="2614.29" departLane="best" from="C3C2" to="D1E1"/>
+    <trip id="moto184" type="moto_motorcycle" depart="2628.57" departLane="best" departSpeed="max" from="E1D1" to="B2A2"/>
+    <trip id="moto185" type="moto_motorcycle" depart="2642.86" departLane="best" from="C1C2" to="B3B4"/>
+    <trip id="moto186" type="moto_motorcycle" depart="2657.14" departLane="best" from="C3D3" to="C2C1"/>
+    <trip id="moto187" type="moto_motorcycle" depart="2671.43" departLane="best" departSpeed="max" from="E2D2" to="C1B1"/>
+    <trip id="moto188" type="moto_motorcycle" depart="2685.71" departLane="best" departSpeed="max" from="A2B2" to="D1D0"/>
+    <trip id="moto189" type="moto_motorcycle" depart="2700.00" departLane="best" departSpeed="max" from="B0B1" to="C3D3"/>
+    <trip id="moto190" type="moto_motorcycle" depart="2714.29" departLane="best" from="C2C3" to="D3D2"/>
+    <trip id="moto191" type="moto_motorcycle" depart="2728.57" departLane="best" from="C2C3" to="C3C4"/>
+    <trip id="moto192" type="moto_motorcycle" depart="2742.86" departLane="best" from="B2C2" to="C3B3"/>
+    <trip id="moto193" type="moto_motorcycle" depart="2757.14" departLane="best" from="B2C2" to="D1E1"/>
+    <trip id="moto194" type="moto_motorcycle" depart="2771.43" departLane="best" from="C2C3" to="B2A2"/>
+    <trip id="moto195" type="moto_motorcycle" depart="2785.71" departLane="best" from="B2B3" to="C1B1"/>
+    <trip id="moto196" type="moto_motorcycle" depart="2800.00" departLane="best" from="D2C2" to="B2B1"/>
+    <trip id="moto197" type="moto_motorcycle" depart="2814.29" departLane="best" from="D2D1" to="D1C1"/>
+    <trip id="moto198" type="moto_motorcycle" depart="2828.57" departLane="best" departSpeed="max" from="A3B3" to="D1D0"/>
+    <trip id="moto199" type="moto_motorcycle" depart="2842.86" departLane="best" departSpeed="max" from="A3B3" to="B1C1"/>
+    <trip id="moto200" type="moto_motorcycle" depart="2857.14" departLane="best" from="C3D3" to="B3A3"/>
+    <trip id="moto201" type="moto_motorcycle" depart="2871.43" departLane="best" departSpeed="max" from="E1D1" to="C2C1"/>
+    <trip id="moto202" type="moto_motorcycle" depart="2885.71" departLane="best" departSpeed="max" from="B4B3" to="D2D1"/>
+    <trip id="moto203" type="moto_motorcycle" depart="2900.00" departLane="best" departSpeed="max" from="A1B1" to="D1D2"/>
+    <trip id="moto204" type="moto_motorcycle" depart="2914.29" departLane="best" departSpeed="max" from="A2B2" to="B2A2"/>
+    <trip id="moto205" type="moto_motorcycle" depart="2928.57" departLane="best" departSpeed="max" from="E2D2" to="D1D0"/>
+    <trip id="moto206" type="moto_motorcycle" depart="2942.86" departLane="best" from="B2B1" to="B1C1"/>
+    <trip id="moto207" type="moto_motorcycle" depart="2957.14" departLane="best" departSpeed="max" from="E3D3" to="D1C1"/>
+    <trip id="moto208" type="moto_motorcycle" depart="2971.43" departLane="best" from="D3D2" to="B2A2"/>
+    <trip id="moto209" type="moto_motorcycle" depart="2985.71" departLane="best" departSpeed="max" from="C4C3" to="C1B1"/>
+    <trip id="moto210" type="moto_motorcycle" depart="3000.00" departLane="best" from="B2B3" to="B3B4"/>
+    <trip id="moto211" type="moto_motorcycle" depart="3014.29" departLane="best" departSpeed="max" from="C4C3" to="C3C2"/>
+    <trip id="moto212" type="moto_motorcycle" depart="3028.57" departLane="best" departSpeed="max" from="C0C1" to="B2A2"/>
+    <trip id="moto213" type="moto_motorcycle" depart="3042.86" departLane="best" from="D3D2" to="D1C1"/>
+    <trip id="moto214" type="moto_motorcycle" depart="3057.14" departLane="best" from="D3C3" to="C2D2"/>
+    <trip id="moto215" type="moto_motorcycle" depart="3071.43" departLane="best" departSpeed="max" from="D4D3" to="C2C3"/>
+    <trip id="moto216" type="moto_motorcycle" depart="3085.71" departLane="best" from="B3C3" to="C3C2"/>
+    <trip id="moto217" type="moto_motorcycle" depart="3100.00" departLane="best" from="D2C2" to="C1C0"/>
+    <trip id="moto218" type="moto_motorcycle" depart="3114.29" departLane="best" departSpeed="max" from="A3B3" to="B1A1"/>
+    <trip id="moto219" type="moto_motorcycle" depart="3128.57" departLane="best" from="B2B1" to="B1A1"/>
+    <trip id="moto220" type="moto_motorcycle" depart="3142.86" departLane="best" departSpeed="max" from="E1D1" to="C2C1"/>
+    <trip id="moto221" type="moto_motorcycle" depart="3157.14" departLane="best" from="D2D1" to="B1A1"/>
+    <trip id="moto222" type="moto_motorcycle" depart="3171.43" departLane="best" from="C3C2" to="D3C3"/>
+    <trip id="moto223" type="moto_motorcycle" depart="3185.71" departLane="best" departSpeed="max" from="C4C3" to="C1C2"/>
+    <trip id="moto224" type="moto_motorcycle" depart="3200.00" departLane="best" from="C3C2" to="B1B2"/>
+    <trip id="moto225" type="moto_motorcycle" depart="3214.29" departLane="best" departSpeed="max" from="B0B1" to="B2A2"/>
+    <trip id="moto226" type="moto_motorcycle" depart="3228.57" departLane="best" departSpeed="max" from="C0C1" to="C1C0"/>
+    <trip id="moto227" type="moto_motorcycle" depart="3242.86" departLane="best" departSpeed="max" from="E1D1" to="B2A2"/>
+    <trip id="moto228" type="moto_motorcycle" depart="3257.14" departLane="best" from="B2C2" to="B3B2"/>
+    <trip id="moto229" type="moto_motorcycle" depart="3271.43" departLane="best" departSpeed="max" from="B0B1" to="B2C2"/>
+    <trip id="moto230" type="moto_motorcycle" depart="3285.71" departLane="best" from="B2B3" to="C2C1"/>
+    <trip id="moto231" type="moto_motorcycle" depart="3300.00" departLane="best" departSpeed="max" from="A1B1" to="D3D4"/>
+    <trip id="moto232" type="moto_motorcycle" depart="3314.29" departLane="best" departSpeed="max" from="C0C1" to="D3D4"/>
+    <trip id="moto233" type="moto_motorcycle" depart="3328.57" departLane="best" from="D2D1" to="D1D0"/>
+    <trip id="moto234" type="moto_motorcycle" depart="3342.86" departLane="best" from="C2B2" to="D3D4"/>
+    <trip id="moto235" type="moto_motorcycle" depart="3357.14" departLane="best" departSpeed="max" from="A3B3" to="D1D0"/>
+    <trip id="moto236" type="moto_motorcycle" depart="3371.43" departLane="best" from="B3B2" to="D1D0"/>
+    <trip id="moto237" type="moto_motorcycle" depart="3385.71" departLane="best" from="D2C2" to="B2A2"/>
+    <trip id="moto238" type="moto_motorcycle" depart="3400.00" departLane="best" from="B2B1" to="B1A1"/>
+    <trip id="moto239" type="moto_motorcycle" depart="3414.29" departLane="best" from="B2B3" to="B1B0"/>
+    <trip id="moto240" type="moto_motorcycle" depart="3428.57" departLane="best" from="C1B1" to="D3E3"/>
+    <trip id="moto241" type="moto_motorcycle" depart="3442.86" departLane="best" departSpeed="max" from="C0C1" to="B3B4"/>
+    <trip id="moto242" type="moto_motorcycle" depart="3457.14" departLane="best" from="C1C2" to="B3B2"/>
+    <trip id="moto243" type="moto_motorcycle" depart="3471.43" departLane="best" from="D2C2" to="D1D2"/>
+    <trip id="moto244" type="moto_motorcycle" depart="3485.71" departLane="best" departSpeed="max" from="B0B1" to="B3A3"/>
+    <trip id="moto245" type="moto_motorcycle" depart="3500.00" departLane="best" departSpeed="max" from="D0D1" to="D3D4"/>
+    <trip id="moto246" type="moto_motorcycle" depart="3514.29" departLane="best" departSpeed="max" from="D0D1" to="C1C2"/>
+    <trip id="moto247" type="moto_motorcycle" depart="3528.57" departLane="best" departSpeed="max" from="E3D3" to="B1A1"/>
+    <trip id="moto248" type="moto_motorcycle" depart="3542.86" departLane="best" departSpeed="max" from="A2B2" to="D2C2"/>
+    <trip id="moto249" type="moto_motorcycle" depart="3557.14" departLane="best" from="C1B1" to="B1B0"/>
+    <trip id="moto250" type="moto_motorcycle" depart="3571.43" departLane="best" from="C2C3" to="D3E3"/>
+    <trip id="moto251" type="moto_motorcycle" depart="3585.71" departLane="best" from="D2C2" to="B3C3"/>
+</routes>

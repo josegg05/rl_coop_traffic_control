@@ -1,0 +1,31 @@
+***Starting server on port 50607 ***
+Loading net-file from 'src/data/sumo_optimal/optimal.net.xml' ... done (20ms).
+Loading additional-files from 'src/data/sumo_optimal/e2.add.xml' ... done (899ms).
+Loading done.
+Simulation version 1.12.0 started with time: 0.00
+Simulation ended at time: 3840.00
+Reason: TraCI requested termination.
+Performance: 
+ Duration: 89.10s
+ TraCI-Duration: 77.95s
+ Real time factor: 43.0972
+ UPS: 1974.904883
+Vehicles: 
+ Inserted: 1540
+ Running: 0
+ Waiting: 0
+Statistics (avg of 1260):
+ RouteLength: 378.88
+ Speed: 4.04
+ Duration: 109.35
+ WaitingTime: 59.97
+ TimeLoss: 80.37
+Bike Statistics (avg of 280):
+ RouteLength: 369.93
+ Speed: 2.86
+ Duration: 136.35
+ WaitingTime: 53.85
+ TimeLoss: 69.27
+Statistics (avg of 1540):
+ DepartDelay: 0.65
+
