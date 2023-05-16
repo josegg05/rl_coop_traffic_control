@@ -1,4 +1,4 @@
-name: CUTMaC-GraphRL
+name: rl_coop_tc
 channels:
   - anaconda
   - pytorch
